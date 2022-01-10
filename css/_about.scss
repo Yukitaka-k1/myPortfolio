@@ -1,0 +1,122 @@
+//
+// アバウトのスタイル
+//
+// アバウト
+$about-pic-paddingB: 18rem;
+$about-rec-top: $header-height + 12rem;
+
+.about {
+    margin-top:$header-height;
+    background-color: $lite-gray;
+    padding-bottom: 6rem;
+    @media (min-width: 769px) {
+        margin-top:$header-height-pc;
+    }
+}
+
+.about-picture {
+    margin: 0 0 0 1rem;
+}
+
+.about-pic-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: $about-pic-paddingB;
+    margin: 0;
+    @media (min-width: 769px) {
+        display: none;
+    }
+}
+
+.about-rec-stac {
+    text-align: right;
+}
+
+.about-rec-1 {
+    top:$about-rec-top;
+    margin: 0 0 0 auto;
+}
+
+.about-rec-2 {
+    position: absolute;
+    top:$about-rec-top + 11rem;
+    margin: 0 0 0 auto;
+}
+
+.about-rec-3 {
+    position: absolute;
+    top:$about-rec-top + 21rem;
+    margin: 0 0 0 auto;
+}
+
+.about-text {
+    position: relative;
+    opacity: 0;
+    z-index: 100;
+    padding: 0 $text-padding-side 4rem $text-padding-side;
+    @media (min-width: 769px) {
+        padding: 0 $text-padding-side-pc 4rem $text-padding-side-pc;
+    }
+}
+
+.about-picture-pc {
+    display: none;
+    @media (min-width: 769px) {
+        display: block;
+        position: absolute;
+        top: 20rem;
+        left: auto;
+        right: 20%;
+        z-index: 90;
+    }
+}
+
+.about-picture-pc {
+    display: none;
+    @media (min-width: 769px) {
+        display: block;
+        position: absolute;
+        top: 20rem;
+        left: auto;
+        right: 20%;
+        z-index: 90;
+    }
+}
+
+.about-rec-1-pc {
+    display: none;
+    @media (min-width: 769px) {
+        display: block;
+        position: absolute;
+        top: 47rem;
+        left: auto;
+        right: 22%;
+        z-index: 91;
+    }
+}
+
+.about-rec-2-pc {
+    display: none;
+    @media (min-width: 769px) {
+        display: block;
+        position: absolute;
+        top: 57rem;
+        left: auto;
+        right: 22%;
+        z-index: 92;
+    }
+}
+
+.about-rec-3-pc {
+    display: none;
+    @media (min-width: 769px) {
+        display: block;
+        position: absolute;
+        top: 65rem;
+        left: auto;
+        right: 22%;
+        z-index: 93;
+    }
+}
+

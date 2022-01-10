@@ -1,0 +1,26 @@
+//
+// セクションタイトルのスタイル
+//
+// セクションタイトル
+.section-title {
+  padding: 0 1rem;
+  @media (min-width: 769px) {
+    padding: 2rem 4rem;
+    line-height: 2rem;
+  }
+}
+
+.section-text {
+  position: relative;
+  z-index: 100;
+  padding: 1rem 0 1rem 1rem;
+  h1 {
+    line-height: 4rem;
+  }
+  @media (min-width: 769px) {
+    padding: 4rem;
+    br {
+      display: none;
+    }
+  }
+}

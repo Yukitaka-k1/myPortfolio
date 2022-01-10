@@ -1,0 +1,92 @@
+//
+// メッセージのスタイル
+//
+// メッセージ
+.message {
+    background-color: $gray;
+}
+
+.message-padding-before-text {
+    padding: 2rem;
+}
+
+.message-text {
+    position: relative;
+    opacity: 0;
+    z-index: 100;
+    padding: 0 $text-padding-side 4rem $text-padding-side;
+    @media (min-width: 769px) {
+        padding: 0 $text-padding-side-pc 4rem $text-padding-side-pc;
+    }
+}
+
+.message-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    text-align: right;
+    @media (min-width: 769px) {
+        display: none;
+    }
+}
+
+.message-pic-stac {
+    text-align: right;
+}
+
+.message-pic-dummy {
+    top:$about-rec-top;
+    margin: 0 0 0 auto;
+}
+
+.message-pic-1 {
+    text-align: right;
+    position: absolute;
+    top:$about-rec-top + 146rem;
+    margin: 0 0 0 auto;
+}
+
+.message-rec-1-pc {
+    display: none;
+    @media (min-width: 769px) {
+        display: block;
+        position: absolute;
+        top: 102rem;
+        left: auto;
+        right: 38%;
+        z-index: 91;
+    }
+}
+
+.message-rec-2-pc {
+    display: none;
+    @media (min-width: 769px) {
+        display: block;
+        position: absolute;
+        top: 116rem;
+        left: auto;
+        right: 27%;
+        z-index: 92;
+    }
+}
+
+.message-rec-3-pc {
+    display: none;
+    @media (min-width: 769px) {
+        display: block;
+        position: absolute;
+        top: 130rem;
+        left: auto;
+        right: 16%;
+        z-index: 93;
+    }
+}
+
+.message-pc-padding {
+    display: none;
+    @media (min-width: 769px) {
+        display: block;
+        padding: 0 0 6rem 0;
+    }
+}
